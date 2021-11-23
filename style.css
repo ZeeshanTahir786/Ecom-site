@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+nav {
+  border: 2px solid green;
+  display: flex;
+  height: 4vmax;
+}
+.left {
+  border: 2px solid salmon;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left > a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 2vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.mid {
+  border: 2px solid salmon;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mid > a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.right {
+  border: 2px solid salmon;
+  width: 20%;
+}
