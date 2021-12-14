@@ -53,6 +53,8 @@ nav {
 }
 .right > img {
   width: 2.5vmax;
+  margin: 1vmax;
+  cursor: pointer;
 }
 .home {
   height: 90vh;
@@ -158,6 +160,7 @@ footer {
   background-color: rgb(34, 32, 32);
   color: white;
   display: flex;
+  align-items: center;
 }
 .leftFooter {
   width: 20%;
@@ -180,7 +183,15 @@ footer {
 }
 .midFooter {
   width: 60%;
-  border: 2px solid white;
+  text-align: center;
+}
+.midFooter > h1 {
+  font-size: 4vmax;
+  color: crimson;
+}
+.midFooter > p {
+  max-width: 50%;
+  margin: 1vmax auto;
 }
 .rightFooter {
   width: 20%;
